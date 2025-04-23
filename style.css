@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #FAF0CA;
+}
+
+header {
+  display: block;
+  position: sticky;
+  padding: 16px;
+  top: 0px;
+  background-color: #EE964B;
+  line-height: 25px;
+}
+
+#menu {
+  background-color: #ee6a49;
+  border-radius: 32px;
+}
+
+#menu button {
+  background-color: #EE964B;
+}
+
+#page {
+  margin: 24px;
+}
+
+button {
+  margin: 3px;
+  border-radius: 12px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #F4D35E;
+  color: #050300;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  opacity: 75%;
+}
+
+button:active {
+  opacity: 45%;
+}
+
+.container {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  display: block;
+  flex: 1;
+  padding: 16px;
+  bottom: 0px;
+  background-color: #EE964B;
+  line-height: 25px;
+}

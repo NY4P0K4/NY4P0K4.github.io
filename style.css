@@ -57,6 +57,7 @@ button:active {
 }
 
 #footer {
+  position: fixed;
   display: block;
   flex: 1;
   padding: 16px;

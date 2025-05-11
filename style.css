@@ -32,12 +32,28 @@ header {
   margin: 24px;
 }
 
+.atividades {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 256px;
+  width: 75%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 button {
   margin: 3px;
   border-radius: 12px;
   padding: 8px 12px;
   border: none;
-  background-color: #F4D35E;
+  background-color: #f4d35e;
   color: #050300;
   font-family: "Poppins", sans-serif;
 }
@@ -57,13 +73,14 @@ button:active {
 }
 
 #footer {
-  width: 100%;
   display: block;
-  unicode-bidi: isolate;
-  position: fixed;
   flex: 1;
   padding: 16px;
   bottom: 0px;
   background-color: #EE964B;
   line-height: 25px;
+}
+
+img {
+  border-radius: 16px;
 }

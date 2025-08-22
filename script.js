@@ -1,9 +1,10 @@
-function menuEnable() {
-  if(document.getElementById("menu").style.visibility == "hidden") {
-    document.getElementById("menu").style.visibility = "visible"
-    document.getElementById("menu").style.position = "static"
+function changeTheme() {
+  const rootElement = document.documentElement;
+  const currentTheme = rootElement.getAttribute('data-theme');
+
+  if (currentTheme === 'dark') {
+    rootElement.setAttribute('data-theme', 'light');
   } else {
-    document.getElementById("menu").style.visibility = "hidden"
-    document.getElementById("menu").style.position = "absolute"
+    rootElement.setAttribute('data-theme', 'dark');
   }
 }

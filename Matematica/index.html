@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Portfolio - Matemática</title>
-    <link href="../style.css" rel="stylesheet" type="text/css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-    </script>
-  </head>
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+  </script>
 
   <script> 
     $(function(){
-      $("#header").load("../Header.html");
-      $("#footer").load("../Footer.html"); 
+      $("#header").load("/Header.html");
+      $("#footer").load("/Footer.html"); 
     });
   </script> 
   <div id="header"></div>
@@ -33,57 +23,7 @@
       </h2>
       <p>Professor Luciano, Wagner e Waldinei</p>
       <h3>1º Trimestre</h3>
-      <div class="atividades">
-        <a target ="_blank" href="https://lh3.googleusercontent.com/drive-storage/AJQWtBNJFoKdV0K4jBc-tzZIloxn2z8TVGp7n89HIM3HEW7FgukltqHQPkQxD2yT-OAg5IXkD-C8-bvGa6A0dXc_xxc7YWKiPA10_tRLohd-FA7Tcok=w1876-h925?auditContext=forDisplay">
-          <button class="item">
-            <p class="title">Medição Acústica</p>
-            <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNJFoKdV0K4jBc-tzZIloxn2z8TVGp7n89HIM3HEW7FgukltqHQPkQxD2yT-OAg5IXkD-C8-bvGa6A0dXc_xxc7YWKiPA10_tRLohd-FA7Tcok=w1876-h925?auditContext=forDisplay">
-            <br><sub>Atividade feita com Logaritmos</sub>
-            <p class="hab"><strong>Habilidades C2, H5 e H13</strong></p>
-          </button>
-        </a>
-        <a target ="_blank" href="https://drive.google.com/file/d/1lRFM56mbzA6cr6GbpXHJDB3Alkrdj8NZ/view?usp=sharing">
-          <button class="item">
-            <p class="title">Entrevista</p>
-            <img src="entrevista.png">
-            <br><sub>Entrevista de Itinerários</sub>
-            <p class="hab"><strong>Habilidades C2 e H13</strong></p>
-          </button>
-        </a>
-      </div>
-      <h3>2º Trimestre</h3>
-      <div class="atividades">
-        <a target ="_blank" href="https://www.canva.com/design/DAGsKDlFWAk/5YbR-GRzUc5MIm4f78bWGw/edit?utm_content=DAGsKDlFWAk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-          <button class="item">
-            <p class="title">Apresentação Cidade Inteligente</p>
-            <img src="cid.png">
-            <br><sub>Apresentação sobre mobilidade urbana de bairros do norte de Florianópolis</sub>
-            <p class="hab"><strong>Habilidades C2, H5, H6 e H8</strong></p>
-          </button>
-        </a>
-        <button class="item">
-          <p class="title">Nota Avaliativa - Passe.Educat</p>
-          <img src="passe.png">
-          <br><sub>Nota da prova avaliativa passada pelo site <a href="https://passe.educat.net.br">passe.educat.net.br</a>.<br>Nota: 344.99, 'Adequado'</sub>
-        </button>
-      </div>
-      <h3>3º Trimestre</h3>
-      <div class="atividades">
-        <a target ="_blank" href="https://www.canva.com/design/DAGye_Zlzkw/tI8MH83C6YAw9Nxd6JvIMQ/edit">
-          <button class="item">
-            <p class="title">Poliedros de Platão</p>
-            <img src="poliedros.png">
-            <br><sub>Apresentação sobre poliedros de Platão montados com palitos e jujubas. Montamos em grupo, gravamos o processo de montagem e depois realizamos o cálculo de volume de todos, por fim colocando tudo em uma apresentação. Foi um trabalho prático em grupo interessante.<br><strong>Habilidades: </strong>C3 - H18, H19, H20</sub>
-          </button>
-        </a>
-        <a target="_blank" href="https://www.canva.com/design/DAGxXE9pxPU/X9tZ--FxP8CcVirlrUzpWA/edit">
-          <button class="item">
-            <p class="title">Papercraft</p>
-            <img src="papercraft.png">
-            <br><sub>Construção de um boneco de papel através da técnica de Papercraft, montando, recortando e encaixando os pedaços. Depois da montagem, realizei o cálculo das áreas e o volume total, e produzi uma apresentação contendo todas as informações + um vídeo em stop-motion de 30s feito junto de outros colegas. Foi um trabalho divertido de realizar, pois fiz um boneco de um baterista que gosto.<br><strong>Habilidades: </strong>C3 - H18, H19, H20</sub>
-          </button>
-        </a>
-      </div>
+      <div id="atividades"></div>
     </main>
     <script src="../script.js"></script>
   </body>

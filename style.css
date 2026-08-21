@@ -187,15 +187,14 @@ footer {
   margin: 1vw 0 0;
 }
 
-main > img {
+main > a > img {
   transition: all .2s;
   border-radius: 16px;
-  outline: solid 0vw hsla(0, 0%, 0%, 0);
   box-shadow: .5vw 1vh 0 var(--shadow);
 }
 
-main > img:hover {
+main > a > img:hover {
   transform: scale(1.05);
-  outline: solid .2vw hsla(0, 0%, 100%, 1);
-  box-shadow: 1vw 1.5vh 0 hsla(30, 100%, 30%, .3);;
+  box-shadow: 1vw 1.5vh 0 hsla(30, 100%, 30%, .3);
+  filter: saturate(1.1);
 }
